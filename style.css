@@ -1,0 +1,120 @@
+* {
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+margin: 0;
+background: #080b18;
+color: white;
+}
+
+
+header {
+text-align: center;
+padding: 40px 20px;
+background: linear-gradient(135deg, #004d98, #a50044);
+}
+
+
+header h1 {
+font-size: 42px;
+margin-bottom: 10px;
+}
+
+
+header p {
+font-size: 20px;
+}
+
+
+nav {
+margin-top: 25px;
+}
+
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 10px;
+font-weight: bold;
+}
+
+
+nav a:hover {
+color: #ffd700;
+}
+
+
+.hero {
+text-align: center;
+padding: 90px 20px;
+background: #111936;
+}
+
+
+.hero h2 {
+font-size: 50px;
+margin-bottom: 15px;
+}
+
+
+section {
+max-width: 1100px;
+margin: auto;
+padding: 40px 20px;
+}
+
+
+.cards {
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+
+.card {
+background: #151b35;
+padding: 25px;
+border-radius: 15px;
+flex: 1;
+min-width: 250px;
+box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+
+
+.card h3 {
+color: #ed1c24;
+}
+
+
+footer {
+text-align: center;
+padding: 30px;
+background: #050711;
+}
+
+
+footer a {
+color: #ed1c24;
+text-decoration: none;
+font-weight: bold;
+}
+
+
+@media (max-width: 700px) {
+
+header h1 {
+font-size: 30px;
+}
+
+.hero h2 {
+font-size: 35px;
+}
+
+nav a {
+display: block;
+margin: 15px;
+}
+
+}
